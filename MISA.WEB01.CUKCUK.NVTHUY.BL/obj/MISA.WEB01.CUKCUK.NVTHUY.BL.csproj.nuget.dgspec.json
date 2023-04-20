@@ -1,0 +1,198 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.BL\\MISA.WEB01.CUKCUK.NVTHUY.BL.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.BL\\MISA.WEB01.CUKCUK.NVTHUY.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.BL\\MISA.WEB01.CUKCUK.NVTHUY.BL.csproj",
+        "projectName": "MISA.WEB01.CUKCUK.NVTHUY.BL",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.BL\\MISA.WEB01.CUKCUK.NVTHUY.BL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj"
+              },
+              "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.DL\\MISA.WEB01.CUKCUK.NVTHUY.DL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.DL\\MISA.WEB01.CUKCUK.NVTHUY.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj",
+        "projectName": "MISA.WEB01.CUKCUK.NVTHUY.Common",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.DL\\MISA.WEB01.CUKCUK.NVTHUY.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.DL\\MISA.WEB01.CUKCUK.NVTHUY.DL.csproj",
+        "projectName": "MISA.WEB01.CUKCUK.NVTHUY.DL",
+        "projectPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.DL\\MISA.WEB01.CUKCUK.NVTHUY.DL.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj": {
+                "projectPath": "C:\\Users\\DELL\\source\\repos\\MISA.WEB01.CUKCUK.NVTHUY\\MISA.WEB01.CUKCUK.NVTHUY.Common\\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

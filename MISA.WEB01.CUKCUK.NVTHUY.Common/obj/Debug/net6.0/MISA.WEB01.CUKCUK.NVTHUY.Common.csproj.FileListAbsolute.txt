@@ -1,0 +1,14 @@
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\bin\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.deps.json
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\bin\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.dll
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\bin\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.pdb
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.Resources.Resources.resources
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj.GenerateResource.cache
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.AssemblyInfo.cs
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.dll
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\refint\MISA.WEB01.CUKCUK.NVTHUY.Common.dll
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\MISA.WEB01.CUKCUK.NVTHUY.Common.pdb
+C:\Users\DELL\source\repos\MISA.WEB01.CUKCUK.NVTHUY\MISA.WEB01.CUKCUK.NVTHUY.Common\obj\Debug\net6.0\ref\MISA.WEB01.CUKCUK.NVTHUY.Common.dll
