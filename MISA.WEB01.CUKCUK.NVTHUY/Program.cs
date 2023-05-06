@@ -1,13 +1,35 @@
-﻿using MISA.WEB01.CUKCUK.NVTHUY.BL.Interfaces;
+﻿using Microsoft.Extensions.FileProviders;
+using MISA.WEB01.CUKCUK.NVTHUY.BL.Interfaces;
 using MISA.WEB01.CUKCUK.NVTHUY.BL.Services;
+using MISA.WEB01.CUKCUK.NVTHUY.Common.Entities;
 using MISA.WEB01.CUKCUK.NVTHUY.DL.Interfaces;
 using MISA.WEB01.CUKCUK.NVTHUY.DL.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
+StaticFileOptions staticFileOptions = new StaticFileOptions
+{
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "UploadFile")),
+    RequestPath = "/UploadFile"
+};
+
+
+builder.Services.AddControllers().AddJsonOptions(jsonOptions =>
+{
+    jsonOptions.JsonSerializerOptions.PropertyNamingPolicy = null;
+});
+
+
+
 // Add services to the container.
 builder.Services.AddScoped<IFoodDL, FoodDL>();
 builder.Services.AddScoped<IFoodBL, FoodBL>();
+
+builder.Services.AddScoped<IServiceHobbyDL, ServiceHobbyDL>();
+builder.Services.AddScoped<IServiceHobbyBL, ServiceHobbyBL>();
+
+builder.Services.AddScoped<IFoodDetailDL, FoodDetailDL>();
+builder.Services.AddScoped<IFoodDetailBL, FoodDetailBL>();
 
 builder.Services.AddScoped<IFoodUnitDL, FoodUnitDL>();
 builder.Services.AddScoped<IFoodUnitBL, FoodUnitBL>();
@@ -50,7 +72,7 @@ app.UseCors(builder =>
     .AllowAnyHeader();
 });
 
-
+app.UseStaticFiles(staticFileOptions);
 
 app.UseHttpsRedirection();
 

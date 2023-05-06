@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MISA.WEB01.CUKCUK.NVTHUY.BL.Interfaces;
+using MISA.WEB01.CUKCUK.NVTHUY.Common.Entities;
 using MISA.WEB01.CUKCUK.NVTHUY.Common.Exceptions;
 using MISA.WEB01.CUKCUK.NVTHUY.Common.Resources;
 
@@ -10,13 +11,26 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Controllers
     [ApiController]
     public class BaseController<T> : ControllerBase
     {
+        #region Properties
+
         private IBaseBL<T> _baseBL;
 
+        #endregion
+
+        #region Contructor
         public BaseController(IBaseBL<T> baseBL)
         {
             _baseBL = baseBL;
         }
+        #endregion
 
+        #region Methods
+
+        /// <summary>
+        /// Controller lấy ra tất cả bản ghi
+        /// </summary>
+        /// <returns>Danh sách toàn bộ bản ghi</returns>
+        /// Created By: NVTHUY(20/04/2023)
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -27,17 +41,17 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Controllers
             }
             catch(Exception ex)
             {
-                Console.WriteLine(ex.Message);
                 return HandleException(ex);
             }
         }
+
 
         /// <summary>
         /// Exception xử lý ngoại lệ
         /// </summary>
         /// <param name="ex">Ngoại lệ được bắt</param>
-        /// <returns></returns>
-        /// CreatedBy NVThuy 28/08/2022
+        /// <returns>Lỗi</returns>
+        /// Created By: NVTHUY(20/04/2023)
         protected IActionResult HandleException(dynamic ex)
         {
             var error = new
@@ -53,5 +67,7 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Controllers
             }
             return StatusCode(500, error);
         }
+
+        #endregion
     }
 }

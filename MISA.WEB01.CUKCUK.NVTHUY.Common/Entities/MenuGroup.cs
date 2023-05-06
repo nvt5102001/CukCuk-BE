@@ -6,10 +6,16 @@ using System.Threading.Tasks;
 
 namespace MISA.WEB01.CUKCUK.NVTHUY.Common.Entities
 {
-    public class MenuGroup
+    public class MenuGroup : Base
     {
-        public Guid MenuGroupID { get; set; }   
+        /// <summary>
+        /// ID nhóm thực đơn
+        /// </summary>
+        public Guid? MenuGroupID { get; set; }   
 
+        /// <summary>
+        /// Tên nhóm thực đơn
+        /// </summary>
         public string? MenuGroupName { get; set; }
     }
 }

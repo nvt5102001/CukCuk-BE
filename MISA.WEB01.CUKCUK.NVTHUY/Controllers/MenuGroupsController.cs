@@ -9,12 +9,20 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Controllers
     [ApiController]
     public class MenuGroupsController : BaseController<MenuGroup>
     {
+        #region Properties
+
         private IMenuGroupBL _menuGroupBL;
+
+        #endregion
+
+        #region Contructor
 
         public MenuGroupsController(IMenuGroupBL menuGroupBL) : base(menuGroupBL)
         {
             _menuGroupBL = menuGroupBL;
             
         }
+
+        #endregion
     }
 }

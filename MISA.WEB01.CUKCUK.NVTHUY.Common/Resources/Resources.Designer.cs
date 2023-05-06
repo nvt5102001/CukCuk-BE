@@ -124,11 +124,29 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Common.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Lấy mã mới không thành công.
+        /// </summary>
+        public static string ExceptionNewCode {
+            get {
+                return ResourceManager.GetString("ExceptionNewCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Sửa dữ liệu không thành công.
         /// </summary>
         public static string ExceptionUpdate {
             get {
                 return ResourceManager.GetString("ExceptionUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Dữ liệu đầu vào là null.
+        /// </summary>
+        public static string InputNullData {
+            get {
+                return ResourceManager.GetString("InputNullData", resourceCulture);
             }
         }
         
@@ -151,7 +169,7 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Common.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mã nhân viên không được để trống.
+        ///   Looks up a localized string similar to Mã món ăn không được để trống.
         /// </summary>
         public static string InvalidFoodCode {
             get {
@@ -160,7 +178,7 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Common.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tên nhân viên không được để trống.
+        ///   Looks up a localized string similar to Tên món ăn không được để trống.
         /// </summary>
         public static string InvalidFoodName {
             get {

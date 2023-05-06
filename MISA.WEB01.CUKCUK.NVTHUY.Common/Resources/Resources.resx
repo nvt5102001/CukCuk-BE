@@ -145,9 +145,17 @@
     <value>Thêm dữ liệu không thành công</value>
     <comment>Thêm dữ liệu không thành công</comment>
   </data>
+  <data name="ExceptionNewCode" xml:space="preserve">
+    <value>Lấy mã mới không thành công</value>
+    <comment>Lấy mã mới không thành công</comment>
+  </data>
   <data name="ExceptionUpdate" xml:space="preserve">
     <value>Sửa dữ liệu không thành công</value>
     <comment>Sửa dữ liệu không thành công</comment>
+  </data>
+  <data name="InputNullData" xml:space="preserve">
+    <value>Dữ liệu đầu vào là null</value>
+    <comment>Dữ liệu đầu vào là null</comment>
   </data>
   <data name="InvalidData" xml:space="preserve">
     <value>Dữ liệu đầu vào không hợp lệ</value>
@@ -158,12 +166,12 @@
     <comment>Thời gian vượt quá ngày hiện tại</comment>
   </data>
   <data name="InvalidFoodCode" xml:space="preserve">
-    <value>Mã nhân viên không được để trống</value>
-    <comment>Mã nhân viên không được để trống</comment>
+    <value>Mã món ăn không được để trống</value>
+    <comment>Mã món ăn không được để trống</comment>
   </data>
   <data name="InvalidFoodName" xml:space="preserve">
-    <value>Tên nhân viên không được để trống</value>
-    <comment>Tên nhân viên không được để trống</comment>
+    <value>Tên món ăn không được để trống</value>
+    <comment>Tên món ăn không được để trống</comment>
   </data>
   <data name="InvalidFoodPrice" xml:space="preserve">
     <value>Giá bán không được để trống</value>

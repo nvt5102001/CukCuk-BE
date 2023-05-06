@@ -9,11 +9,19 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Controllers
     [ApiController]
     public class CookRoomsController : BaseController<CookRoom>
     {
+        #region Properties
+
         private ICookRoomBL _cookRoomBL;
+
+        #endregion
+
+        #region Contructor
 
         public CookRoomsController(ICookRoomBL cookRoomBL) : base(cookRoomBL)
         {
             _cookRoomBL = cookRoomBL;
         }
+
+        #endregion
     }
 }

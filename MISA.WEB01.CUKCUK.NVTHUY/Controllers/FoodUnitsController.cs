@@ -9,11 +9,19 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.Controllers
     [ApiController]
     public class FoodUnitsController : BaseController<FoodUnit>
     {
+        #region Properties
+
         private IFoodUnitBL _foodUnitBL;
+
+        #endregion
+
+        #region Contructor
 
         public FoodUnitsController(IFoodUnitBL foodUnitBL) : base(foodUnitBL)
         {
             _foodUnitBL = foodUnitBL;
         }
+
+        #endregion
     }
 }

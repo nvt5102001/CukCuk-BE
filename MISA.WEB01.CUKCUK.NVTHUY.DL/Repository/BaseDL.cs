@@ -3,10 +3,12 @@ using Microsoft.Extensions.Configuration;
 using MISA.WEB01.CUKCUK.NVTHUY.Common.Exceptions;
 using MISA.WEB01.CUKCUK.NVTHUY.Common.Resources;
 using MISA.WEB01.CUKCUK.NVTHUY.DL.Interfaces;
-using MySqlConnector;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,10 +44,11 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.DL.Repository
             }    
         }
 
+       
         public void CloseConnect()
         {
+            mySqlConnection.Close(); 
             mySqlConnection.Dispose();
-            mySqlConnection.Close();  
         }
 
         public IEnumerable<T> GetALL()
@@ -60,7 +63,5 @@ namespace MISA.WEB01.CUKCUK.NVTHUY.DL.Repository
             CloseConnect();
             return result;
         }
-
-       
     }
 }
